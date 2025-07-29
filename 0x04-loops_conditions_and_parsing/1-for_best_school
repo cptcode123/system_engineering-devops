@@ -2,5 +2,5 @@
 # Looping through 1-10
 for _ in {1..10}
 do
-  echo "Best School"
+  echo -e "Best School"
 done
