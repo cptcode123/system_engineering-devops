@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 # List all currently running processes and their PIDs.
 
-
+ps aux | awk '{print $1, $11}' | column -t
