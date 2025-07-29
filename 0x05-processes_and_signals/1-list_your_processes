@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# List all currently running processes and their PIDs.
+
+ps -eaf --long
