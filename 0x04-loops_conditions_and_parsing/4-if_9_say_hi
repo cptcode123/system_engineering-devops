@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # While loop, if 9 say hi
 count=1
-while [ $count -le 10 ]
+while [ $count -le 11 ]
 do
     if [ $count -eq 9 ]
     then
