@@ -1,0 +1,16 @@
+#!/usr/bin/env bash
+# While loop, if 8 say "Bad luck", else if, 4 say "Good luck", else say "Best School"
+count=1
+while [ $count -le 10 ]
+do
+    if [ $count -eq 8 ]
+    then
+        echo -e "Bad luck"
+    elif [ $count -eq 4 ]
+    then
+        echo -e "Good luck"
+    else
+        echo -e "Best School"
+    fi
+    ((count++))
+done
