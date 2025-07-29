@@ -5,10 +5,10 @@ while [ $count -le 10 ]
 do
     if [ $count -eq 8 ]
     then
-        echo -e "Bad luck"
+        echo -e "bad luck"
     elif [ $count -eq 4 ]
     then
-        echo -e "Good luck"
+        echo -e "good luck"
     else
         echo -e "Best School"
     fi
