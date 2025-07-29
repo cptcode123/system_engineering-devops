@@ -3,7 +3,7 @@
 count=1
 while [ $count -le 11 ]
 do
-    if [ $count -eq 9 ]
+    if [ $count -eq 10 ]
     then
         echo -e "Hi"
     else
