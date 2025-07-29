@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+# Looping through working directory files in a list format, using for loop, displaying only the part of the name after the first dash (-) is displayed
+for file in *; do
+  if [[ -f $file ]]; then
+    name="${file#*-}"
+    echo "$name"
+  fi
+done
