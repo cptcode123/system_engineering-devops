@@ -1,3 +1,4 @@
-#!/bash/bin/env bash
-# This script prints the PID of the current shell process.
-echo "The PID of this shell is: $$"
+#!/usr/bin/env bash
+# This script prints the PID of the current shell process. 
+
+echo  $$
