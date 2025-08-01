@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# Use pkill to send signal to the process name
+
+pkill -f "4-to_infinity_and_beyond"
