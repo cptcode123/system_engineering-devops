@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# File lishts all bash pids without using ps
+
+pgrep -l bash
